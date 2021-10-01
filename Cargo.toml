@@ -1,0 +1,14 @@
+[package]
+name = "jack-autoplug"
+version = "1.0.0"
+edition = "2018"
+authors = [ "Stefan Majewsky <majewsky@gmx.net>" ]
+description = "Ensures that a certain set of JACK ports are always connected to each other (if they are present)."
+readme = "README.md"
+homepage = "https://github.com/majewsky/jack-autoplug"
+license = "AGPL-3.0"
+keywords = [ "jack", "audio", "autoplug" ]
+
+[dependencies]
+jack = "^0.7"
+getopts = "^0.2"
